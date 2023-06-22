@@ -1,0 +1,22 @@
+{
+  "name": "@nova-kit/server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "btcnoder",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "koa": "^2.14.2",
+    "koa-static": "^5.0.0"
+  },
+  "type": "module"
+}

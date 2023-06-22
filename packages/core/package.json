@@ -1,0 +1,30 @@
+{
+  "name": "@nova-kit/core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bin/www.js",
+  "files": [
+    "bin",
+    "lib",
+    "template-*"
+  ],
+  "bin": {
+    "nova": "bin/www.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "module",
+  "dependencies": {
+    "@nova-kit/server": "workspace:^",
+    "chalk": "^5.2.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.7"
+  }
+}

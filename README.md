@@ -1,2 +1,2 @@
-# novekit
+# novakit
 nodejs scaffolding
