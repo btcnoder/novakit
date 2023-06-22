@@ -19,6 +19,9 @@
     "type": "git",
     "url": "https://github.com/btcnoder/novakit.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "nova",
     "scaffolding"
