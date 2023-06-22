@@ -1,7 +1,7 @@
 {
   "name": "@nova-kit/core",
   "version": "0.0.1",
-  "description": "",
+  "description": "nova kit tools",
   "main": "bin/www.js",
   "files": [
     "bin",
@@ -15,8 +15,15 @@
     "dev": "tsup --watch",
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btcnoder/novakit.git"
+  },
+  "keywords": [
+    "nova",
+    "scaffolding"
+  ],
+  "author": "btcnoder",
   "license": "Apache-2.0",
   "type": "module",
   "dependencies": {
