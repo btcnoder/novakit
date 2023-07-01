@@ -40,5 +40,8 @@ Commands:
 
 
 
+#### 特别提示：
+在使用`nova server --ssl`命令之前，要先安装mkcert软件，并且执行`mkcert -install`命令，这一步的目的是在本地系统中安装根证书。
+
 
 
